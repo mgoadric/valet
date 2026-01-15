@@ -24,7 +24,7 @@ menu:
 ######################### Default Parameters ###########################
 
 # logo
-logo: "/assets/images/logo.svg"
+logo: "/assets/images/valet-logo.png"
 # meta data
 author: "Themefisher"
 description: "This is meta description"

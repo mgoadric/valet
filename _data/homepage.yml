@@ -1,7 +1,7 @@
 ####################### banner #######################################
 banner:
   enable: true
-  title: "Valet: A Testbed of Traditional Card Games with Imperfect Information"
+  title: "<span style='color:darkred;''>Valet</span>: A Testbed of Traditional Card Games with Imperfect Information"
   image: "/assets/images/banner/valet.png"
   bg_image: "/assets/images/banner/banner-bg.svg"
 
