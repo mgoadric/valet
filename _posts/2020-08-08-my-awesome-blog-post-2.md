@@ -1,22 +1,168 @@
 ---
-title : "My awesome second blog post"
-image : "/assets/images/post/post-2.jpg"
-author : "John Doe"
-date: 2020-08-08 11:12:58 +0600
+title : "Hearts"
+image : "/assets/images/post/hearts.jpg"
+author : "Mark Goadrich"
+date: 1880-08-08 11:12:58 +0600
 description : "This is meta description"
-tags : ["Design Tools"]
-
+tags : ["Trick-Taking"]
+num_players : 4
+origin : USA
+deck : French
 ---
-Are you Developer and recently started your own business and Already made a website to ensure online presence and wants to reach more people. but you are not getting as much as response from your targeted customer or you are unable to reach them. SEO(Search engine optimization)is the cheapest way to reach your customer or client. After 2000 the Internet is more easy access to common people and most of the netizens to find out information search on google/yahoo/bing like a search engine. So if your site ranks at the top of the SERP for your target keywords then sure you will get more valuable traffic to your site and it will help you a lot to grow your business.
 
-Above Paragraph, you see SERP or Keywords that are common SEO Term so Before starting learning SEO let's learn the term used by the SEO expert. It will smoothen your learning journey. Or if you are wishing to hire an SEO guy it will help you his task he/she doing and understand he/she going on the right path. So not making delay let dive…
+In Hearts, players play for themselves, with points assigned to the Heart-suited cards, along with the Queen of Spades. Hearts is a trick-avoidance game, such that the player with the lowest score wins, and players cannot lead Hearts until someone else has played one as a following card. 
 
-**Algorithm:** “Algorithm is a process or set of rules to be followed in calculations or other problem-solving operations, especially by a computer.” It is its definition. In SEO we basically mean A very sophisticated and complex program used by the search engine to find out data and indexing it, And when a user gives a data query this program also decides the best result to place in the SERP in order. All search engines use multiple algorithms combination on their data collection and result giving process in different stages.
+# Rules of Play
 
-**Algorithm Change:** All the search engine service providers always try to give the best results to their users. So they always working on updating, refreshing or making and implementing new algorithms. The search engine service provider never revealed the exact date of rolling out any updates or new algorithms to make an effective date. Normally they give a boundary of time like this week or this month, we are going to rolling out a major update or applying new this algorithm. They give this new algorithm a name and they always call it by the given name. Like, google spider, Google panda, etc. Most of the time After one to two week we can see and understand the update or change impact but sometimes it also happens quicker also.
+# RECYCLE Code
 
-* Algorithm Update: Search Engines regularly making minor changes in their system they normally don’t give an official announcement. But SEO related blogs and journals give the news what the changes made. So Keep update regular visit this industry-related community is important. And when the Major update come You must observe your ranking behavior and if you find you've got the penalty then quickly take necessary step undereating the guidelines given by search engine company.
+{% highlight racket %}
+(game
+ (setup  
+  ;; Set up the players, 4 players each on their own team
+  (create players 4)
+  ;; Create the deck source
+  (create deck (game iloc STOCK) (deck (RANK (A, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE, TEN, J, Q, K))
+                                         (COLOR (RED (SUIT (HEARTS, DIAMONDS)))
+                                                (BLACK (SUIT (CLUBS, SPADES)))))))       
+ 
+ ;; Stages of the game
+         (do (
+             (set (game points SCORE)
+                  (((SUIT : HEARTS) 1) 
+                   ((RANK : Q) (SUIT : SPADES) 13)))
+             (shuffle (game iloc STOCK))
+             (all player 'P
+                  (repeat 13
+                          (move (top (game iloc STOCK))
+                                (top ('P iloc HAND)))))
+             (set (game str LEAD) NONE)
+             (set (game sto BROKEN) 0)))
+        
+        ;; players play a round 13 times     
+        (stage player
+               (end 
+                (all player 'P 
+                     (== (size ('P iloc HAND)) 0)))
+               
+               ;; players play a hand once
+               (stage player
+                      (end 
+                       (all player 'P 
+                            (== (size ('P vloc TRICK)) 1)))
+                      
+                      (choice  
+                       (         
+                        ;; if first player and hearts not broken and have non-hearts cards
+                        ;;   play one of these, remember it in the lead spot, and end your turn
+                        ((and (== (game str LEAD) NONE)
+                              (== (game sto BROKEN) 0))
+                         (any (filter ((current player) iloc HAND) 'NH 
+                                      (!= (cardatt SUIT 'NH) HEARTS))
+                              'C     
+                              (do (
+                                   (move 'C  
+                                         (top ((current player) vloc TRICK)))               
+                                   (set (game str LEAD) (cardatt SUIT (top ((current player) vloc TRICK))))))))
+                        
+                        ((and (== (game str LEAD) NONE)
+                              (== (game sto BROKEN) 0)
+                              (== (size (filter ((current player) iloc HAND) 'NH 
+                                                (!= (cardatt SUIT 'NH) HEARTS))) 0))
+                         
+                         (any ((current player) iloc HAND) 'C
+                              (do (
+                                   (move 'C 
+                                         (top ((current player) vloc TRICK)))
+                                   (set (game str LEAD) (cardatt SUIT (top ((current player) vloc TRICK))))))))
+                        
+                        ;; if first player and hearts broken
+                        ;;   play any card, remember it in the lead spot, and end your turn
+                        ((and (== (game str LEAD) NONE)
+                              (== (game sto BROKEN) 1))
+                         (any ((current player) iloc HAND) 'C
+                              (do 
+                                  (
+                                   (move 'C 
+                                         (top ((current player) vloc TRICK)))
+                                   (set (game str LEAD) (cardatt SUIT (top ((current player) vloc TRICK))))))))
+                        
+                        ;; if following player and cannot follow SUIT
+                        ;;   play any card, and end your turn
+                        ((and (!= (game str LEAD) NONE)
+                              (== (size (filter ((current player) iloc HAND) 'H 
+                                                (== (cardatt SUIT 'H) 
+                                                    (game str LEAD)))) 0))
+                         (any ((current player) iloc HAND) 'C
+                              (move 'C 
+                                    (top ((current player) vloc TRICK)))))
+                        
+                        ;; if following player and can follow SUIT
+                        ;;   play any card that follows SUIT, and end your turn
+                        (any (filter ((current player) iloc HAND) 'H 
+                                     (== (cardatt SUIT 'H)
+                                         (game str LEAD)))
+                             'C
+                             ((!= (game str LEAD) NONE)
+                              (move 'C 
+                                    (top ((current player) vloc TRICK))))))))
+               
+               ;; after players play hand, computer wraps up trick
+               (do ( 
+                    ;; solidfy card recedence
+                    (set (game points PRECEDENCE)
+                         (
+                          ((SUIT : (game str LEAD)) 100)
+                          ((RANK : A) 14)
+                          ((RANK : K) 13) 
+                          ((RANK : Q) 12)
+                          ((RANK : J) 11)
+                          ((RANK : TEN) 10)
+                          ((RANK : NINE) 9)
+                          ((RANK : EIGHT) 8)
+                          ((RANK : SEVEN) 7)
+                          ((RANK : SIX) 6)
+                          ((RANK : FIVE) 5)
+                          ((RANK : FOUR) 4)
+                          ((RANK : THREE) 3)
+                          ((RANK : TWO) 2)))
+                    
+                    ;; determine who won the hand, set them first next time, and give them a point
+                    (set (game str LEAD) NONE)
+                    (cycle next (owner (max (union (all player 'P 
+                                                        ('P vloc TRICK))) using (game points PRECEDENCE))))
+                    
+                    ;; if winner played trump and trump not broken, trump is now broken
+                    ((and (!= (size (filter (union (all player 'P 
+                                                        ('P vloc TRICK))) 'PH  (== (cardatt SUIT 'PH) HEARTS)))
+							  0)
+                          (== (game sto BROKEN) 0))
+                     (set (game sto BROKEN) 1))
+                    
+                    ;; discard all the played cards
+                    (all player 'P
+                         (move (top ('P vloc TRICK)) 
+                               (top ((next player) vloc TRICKSWON)))))))
+        
+        ;; determine score
+        (stage player
+               (end 
+                (all player 'P (== (size ('P vloc TRICKSWON)) 0)))
+               (do (
+                    
+                    ((== (sum ((current player) vloc TRICKSWON) using (game points SCORE)) 26)
+                     (dec ((current player) sto SCORE) 26))
+                    
+                    ((!= (sum ((current player) vloc TRICKSWON) using (game points SCORE)) 26)
+                     (inc ((current player) sto SCORE) (sum ((current player) vloc TRICKSWON) using (game points SCORE))))
+                    
+                    (repeat all
+                            (move (top ((current player) vloc TRICKSWON))
+                                  (top (game vloc DISCARD)))))))
+ 
+ (scoring min ((current player) sto SCORE)))
+{% endhighlight %}
 
-* Algorithm Refresh: Search engine operator after a regular interval re-run the existing algorithm to find out the new spammer.
+# Branching Factor
 
-* New Algorithm: Improving search quality google and other search engines regularly bringing new algorithms. All new algorithm has its special purpose to serve in the total search engine working process.
+
