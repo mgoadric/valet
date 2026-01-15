@@ -1,8 +1,8 @@
 ####################### banner #######################################
 banner:
   enable: true
-  title: "Hi, I'm John Smith Doe. <br> I help people make the  worlds best software"
-  image: "/assets/images/banner/illustration.svg"
+  title: "Valet: A Testbed of Traditional Card Games with Imperfect Information"
+  image: "/assets/images/banner/valet.png"
   bg_image: "/assets/images/banner/banner-bg.svg"
 
 ######################## call to action ###############################
