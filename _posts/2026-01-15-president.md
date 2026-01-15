@@ -1,20 +1,20 @@
 ---
-title : "Hearts"
+title : "President"
 image : "/assets/images/post/hearts.jpg"
 date: 1880-08-08 11:12:58 +0600
 description : "This is meta description"
-tags : ["Trick-Taking", "Lowest Wins", "Avoidance"]
-num_players : 4
-origin : USA
+tags : ["Climbing", "Highest Wins"]
+num_players : 5
+origin : China
 deck : French
-source : https://www.pagat.com/reverse/hearts.html
+source : https://www.pagat.com/climbing/president.html
 ---
 
 In Hearts, players play for themselves, with points assigned to the Heart-suited cards, along with the Queen of Spades. Hearts is a trick-avoidance game, such that the player with the lowest score wins, and players cannot lead Hearts until someone else has played one as a following card. 
 
 ### Rules of Play
 
-A game of Hearts for four players consists of thirteen tricks. First,
+A one-round game of Hearts for four players consists of thirteen tricks. First,
 shuffle a standard deck of cards. Each player receives thirteen cards. For each
 trick, players play one card to the trick. The first player will set the lead suit for
 the trick, which subsequent players must follow suit if they can, otherwise they
@@ -27,11 +27,6 @@ one point for each ♡ collected in tricks, plus 13 points if they collected the
 Q♠. If a player happens to collect all ♡ and the Q♠, then they will Shoot the
 Moon and instead subtract 26 points from their score. The player with the
 lowest point value wins the game.
-
-### Variants Used
-
-In \textsc{Hearts}, we do not include the ability to pass cards before playing the game. We only include one
-round, instead of multiple rounds until one player scores over 100 points.
 
 ### RECYCLE Code
 

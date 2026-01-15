@@ -8,11 +8,10 @@ layout : default
       <div class="col-lg-10 mx-auto block shadow mb-5">
         <h2>{{ page.title }}</h2>
         <div class="mb-3 post-meta">
-          {% if page.author %}
-          <a href="{{ 'author/' | relative_url }}{{ page.author | slugify }}">{{ page.author | capitalize }}</a>{%endif%},
           {% if page.tags.size >= 1 %}
+          |
           {% for tag in page.tags %}
-          <a href="{{ '/tag/' | relative_url }}{{ tag | slugify }}">{{ tag | capitalize }}</a>
+          <a href="{{ '/tag/' | relative_url }}{{ tag | slugify }}">{{ tag | capitalize }}</a> |
           {% endfor %}
           {% endif %}
         </div>
