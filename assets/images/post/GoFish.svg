@@ -1,0 +1,181 @@
+<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0.00 0.00 480.00 282.40">
+<g id="graph0" class="graph" transform="translate(4,278.3999938964844) scale(1)">
+<polygon fill="white" stroke="none" points="-4,4 -4,-278.4 476,-278.4 476,4 -4,4"/>
+<text text-anchor="middle" x="236" y="-257.8" font-family="Futura" font-size="14.00">GoFish</text>
+<g id="clust1" class="cluster">
+<title>cluster_table</title>
+<polygon fill="ghostwhite" stroke="black" points="130,-164.8 130,-241.6 318,-241.6 318,-164.8 130,-164.8"/>
+<text text-anchor="middle" x="224" y="-225" font-family="Futura" font-size="14.00">table</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_p1</title>
+<polygon fill="ghostwhite" stroke="black" points="8,-80 8,-156.8 80,-156.8 80,-80 8,-80"/>
+<text text-anchor="middle" x="44" y="-140.2" font-family="Futura" font-size="14.00">p1</text>
+</g>
+<g id="clust3" class="cluster">
+<title>cluster_p2</title>
+<polygon fill="ghostwhite" stroke="black" points="88,-8 88,-156.8 208,-156.8 208,-8 88,-8"/>
+<text text-anchor="middle" x="148" y="-140.2" font-family="Futura" font-size="14.00">p2</text>
+</g>
+<g id="clust4" class="cluster">
+<title>cluster_p3</title>
+<polygon fill="ghostwhite" stroke="black" points="216,-8 216,-156.8 336,-156.8 336,-8 216,-8"/>
+<text text-anchor="middle" x="276" y="-140.2" font-family="Futura" font-size="14.00">p3</text>
+</g>
+<g id="clust5" class="cluster">
+<title>cluster_p4</title>
+<polygon fill="ghostwhite" stroke="black" points="344,-8 344,-156.8 464,-156.8 464,-8 344,-8"/>
+<text text-anchor="middle" x="404" y="-140.2" font-family="Futura" font-size="14.00">p4</text>
+</g>
+<!-- table_INVISIBLE_STOCK_0 -->
+<g id="node1" class="node">
+<title>table_INVISIBLE_STOCK_0</title>
+<path fill="khaki" stroke="black" stroke-width="3" d="M187.95,-208.8C187.95,-208.8 150.05,-208.8 150.05,-208.8 144.05,-208.8 138.05,-202.8 138.05,-196.8 138.05,-196.8 138.05,-184.8 138.05,-184.8 138.05,-178.8 144.05,-172.8 150.05,-172.8 150.05,-172.8 187.95,-172.8 187.95,-172.8 193.95,-172.8 199.95,-178.8 199.95,-184.8 199.95,-184.8 199.95,-196.8 199.95,-196.8 199.95,-202.8 193.95,-208.8 187.95,-208.8"/>
+<text text-anchor="middle" x="169" y="-186.6" font-family="Futura" font-size="14.00">STOCK</text>
+</g>
+<!-- p1_INVISIBLE_HAND_0 -->
+<g id="node3" class="node">
+<title>p1_INVISIBLE_HAND_0</title>
+<path fill="lightblue" stroke="black" d="M60.22,-124C60.22,-124 27.78,-124 27.78,-124 21.78,-124 15.78,-118 15.78,-112 15.78,-112 15.78,-100 15.78,-100 15.78,-94 21.78,-88 27.78,-88 27.78,-88 60.22,-88 60.22,-88 66.22,-88 72.22,-94 72.22,-100 72.22,-100 72.22,-112 72.22,-112 72.22,-118 66.22,-124 60.22,-124"/>
+<text text-anchor="middle" x="44" y="-101.8" font-family="Futura" font-size="14.00">HAND</text>
+</g>
+<!-- table_INVISIBLE_STOCK_0&#45;&gt;p1_INVISIBLE_HAND_0 -->
+<g id="edge1" class="edge">
+<title>table_INVISIBLE_STOCK_0-&gt;p1_INVISIBLE_HAND_0</title>
+<path fill="none" stroke="black" d="M136.73,-181.65C119.94,-176.37 99.71,-168.31 84,-156.8 75.29,-150.42 67.42,-141.69 61.01,-133.32"/>
+<polygon fill="black" stroke="black" points="63.99,-131.47 55.31,-125.4 58.31,-135.56 63.99,-131.47"/>
+</g>
+<!-- p2_INVISIBLE_HAND_0 -->
+<g id="node4" class="node">
+<title>p2_INVISIBLE_HAND_0</title>
+<path fill="lightblue" stroke="black" d="M185.22,-124C185.22,-124 152.78,-124 152.78,-124 146.78,-124 140.78,-118 140.78,-112 140.78,-112 140.78,-100 140.78,-100 140.78,-94 146.78,-88 152.78,-88 152.78,-88 185.22,-88 185.22,-88 191.22,-88 197.22,-94 197.22,-100 197.22,-100 197.22,-112 197.22,-112 197.22,-118 191.22,-124 185.22,-124"/>
+<text text-anchor="middle" x="169" y="-101.8" font-family="Futura" font-size="14.00">HAND</text>
+</g>
+<!-- table_INVISIBLE_STOCK_0&#45;&gt;p2_INVISIBLE_HAND_0 -->
+<g id="edge2" class="edge">
+<title>table_INVISIBLE_STOCK_0-&gt;p2_INVISIBLE_HAND_0</title>
+<path fill="none" stroke="black" d="M169,-171.42C169,-160.92 169,-147.51 169,-135.65"/>
+<polygon fill="black" stroke="black" points="172.5,-135.99 169,-125.99 165.5,-135.99 172.5,-135.99"/>
+</g>
+<!-- p3_INVISIBLE_HAND_0 -->
+<g id="node6" class="node">
+<title>p3_INVISIBLE_HAND_0</title>
+<path fill="lightblue" stroke="black" d="M271.22,-124C271.22,-124 238.78,-124 238.78,-124 232.78,-124 226.78,-118 226.78,-112 226.78,-112 226.78,-100 226.78,-100 226.78,-94 232.78,-88 238.78,-88 238.78,-88 271.22,-88 271.22,-88 277.22,-88 283.22,-94 283.22,-100 283.22,-100 283.22,-112 283.22,-112 283.22,-118 277.22,-124 271.22,-124"/>
+<text text-anchor="middle" x="255" y="-101.8" font-family="Futura" font-size="14.00">HAND</text>
+</g>
+<!-- table_INVISIBLE_STOCK_0&#45;&gt;p3_INVISIBLE_HAND_0 -->
+<g id="edge3" class="edge">
+<title>table_INVISIBLE_STOCK_0-&gt;p3_INVISIBLE_HAND_0</title>
+<path fill="none" stroke="black" d="M194.72,-171.43C200.59,-166.87 206.66,-161.84 212,-156.8 219.73,-149.51 227.51,-140.94 234.3,-132.99"/>
+<polygon fill="black" stroke="black" points="236.79,-135.46 240.51,-125.54 231.42,-130.98 236.79,-135.46"/>
+</g>
+<!-- p4_INVISIBLE_HAND_0 -->
+<g id="node8" class="node">
+<title>p4_INVISIBLE_HAND_0</title>
+<path fill="lightblue" stroke="black" d="M396.22,-124C396.22,-124 363.78,-124 363.78,-124 357.78,-124 351.78,-118 351.78,-112 351.78,-112 351.78,-100 351.78,-100 351.78,-94 357.78,-88 363.78,-88 363.78,-88 396.22,-88 396.22,-88 402.22,-88 408.22,-94 408.22,-100 408.22,-100 408.22,-112 408.22,-112 408.22,-118 402.22,-124 396.22,-124"/>
+<text text-anchor="middle" x="380" y="-101.8" font-family="Futura" font-size="14.00">HAND</text>
+</g>
+<!-- table_INVISIBLE_STOCK_0&#45;&gt;p4_INVISIBLE_HAND_0 -->
+<g id="edge4" class="edge">
+<title>table_INVISIBLE_STOCK_0-&gt;p4_INVISIBLE_HAND_0</title>
+<path fill="none" stroke="black" d="M194.33,-171.4C199.01,-168.76 204.01,-166.4 209,-164.8 236.78,-155.91 314.1,-170.2 340,-156.8 350.13,-151.56 358.57,-142.5 365.05,-133.53"/>
+<polygon fill="black" stroke="black" points="367.9,-135.56 370.47,-125.28 362.05,-131.72 367.9,-135.56"/>
+</g>
+<!-- table_VISIBLE_PASSING_0 -->
+<g id="node2" class="node">
+<title>table_VISIBLE_PASSING_0</title>
+<path fill="lightgreen" stroke="black" d="M280.18,-208.8C280.18,-208.8 229.82,-208.8 229.82,-208.8 223.82,-208.8 217.82,-202.8 217.82,-196.8 217.82,-196.8 217.82,-184.8 217.82,-184.8 217.82,-178.8 223.82,-172.8 229.82,-172.8 229.82,-172.8 280.18,-172.8 280.18,-172.8 286.18,-172.8 292.18,-178.8 292.18,-184.8 292.18,-184.8 292.18,-196.8 292.18,-196.8 292.18,-202.8 286.18,-208.8 280.18,-208.8"/>
+<text text-anchor="middle" x="255" y="-186.6" font-family="Futura" font-size="14.00">PASSING</text>
+</g>
+<!-- table_VISIBLE_PASSING_0&#45;&gt;table_VISIBLE_PASSING_0 -->
+<g id="edge10" class="edge">
+<title>table_VISIBLE_PASSING_0-&gt;table_VISIBLE_PASSING_0</title>
+<path fill="none" stroke="green" stroke-width="3" d="M292.65,-206.56C302.62,-205.66 310.18,-200.41 310.18,-190.8 310.18,-186.45 308.63,-182.99 306,-180.42"/>
+<polygon fill="green" stroke="green" stroke-width="3" points="307.45,-177.23 296.86,-176.74 304.83,-183.72 307.45,-177.23"/>
+</g>
+<!-- table_VISIBLE_PASSING_0&#45;&gt;p1_INVISIBLE_HAND_0 -->
+<g id="edge9" class="edge">
+<title>table_VISIBLE_PASSING_0-&gt;p1_INVISIBLE_HAND_0</title>
+<path fill="none" stroke="red" stroke-width="3" d="M236.41,-172.43C230.68,-169.39 224.29,-166.61 218,-164.8 191.26,-157.08 117.7,-169.63 93,-156.8 83.77,-152.01 75.93,-144.04 69.27,-135.87"/>
+<polygon fill="red" stroke="red" stroke-width="3" points="72.19,-133.94 63.35,-128.1 66.63,-138.18 72.19,-133.94"/>
+</g>
+<!-- table_VISIBLE_PASSING_0&#45;&gt;p2_INVISIBLE_HAND_0 -->
+<g id="edge12" class="edge">
+<title>table_VISIBLE_PASSING_0-&gt;p2_INVISIBLE_HAND_0</title>
+<path fill="none" stroke="red" stroke-width="3" d="M239.32,-172.48C233.35,-167.64 226.75,-162.23 221,-156.8 213.94,-150.14 206.83,-142.41 200.15,-135.05"/>
+<polygon fill="red" stroke="red" stroke-width="3" points="202.79,-132.76 193.46,-127.73 197.62,-137.47 202.79,-132.76"/>
+</g>
+<!-- table_VISIBLE_PASSING_0&#45;&gt;p3_INVISIBLE_HAND_0 -->
+<g id="edge6" class="edge">
+<title>table_VISIBLE_PASSING_0-&gt;p3_INVISIBLE_HAND_0</title>
+<path fill="none" stroke="red" stroke-width="3" d="M260.59,-172.64C261.66,-162.83 261.99,-150.21 261.58,-138.66"/>
+<polygon fill="red" stroke="red" stroke-width="3" points="265.09,-138.69 260.93,-128.95 258.11,-139.16 265.09,-138.69"/>
+</g>
+<!-- table_VISIBLE_PASSING_0&#45;&gt;p4_INVISIBLE_HAND_0 -->
+<g id="edge11" class="edge">
+<title>table_VISIBLE_PASSING_0-&gt;p4_INVISIBLE_HAND_0</title>
+<path fill="none" stroke="red" stroke-width="3" d="M292.26,-182.52C310.74,-177.28 332.4,-168.96 349,-156.8 356.68,-151.17 363.71,-143.72 369.32,-136.3"/>
+<polygon fill="red" stroke="red" stroke-width="3" points="372.23,-138.24 374.79,-127.96 366.38,-134.4 372.23,-138.24"/>
+</g>
+<!-- p1_INVISIBLE_HAND_0&#45;&gt;table_VISIBLE_PASSING_0 -->
+<g id="edge7" class="edge">
+<title>p1_INVISIBLE_HAND_0-&gt;table_VISIBLE_PASSING_0</title>
+<path fill="none" stroke="green" stroke-width="3" d="M45.41,-124.49C50.86,-135.83 61.42,-149.75 75,-156.8 99.7,-169.63 173.26,-157.08 200,-164.8 201.74,-165.3 203.5,-165.88 205.25,-166.52"/>
+<polygon fill="green" stroke="green" stroke-width="3" points="203.83,-169.72 214.39,-170.49 206.62,-163.3 203.83,-169.72"/>
+</g>
+<!-- p2_INVISIBLE_HAND_0&#45;&gt;table_VISIBLE_PASSING_0 -->
+<g id="edge5" class="edge">
+<title>p2_INVISIBLE_HAND_0-&gt;table_VISIBLE_PASSING_0</title>
+<path fill="none" stroke="green" stroke-width="3" d="M174.65,-124.37C181.62,-134.31 192.37,-146.76 203,-156.8 205.43,-159.09 208,-161.38 210.67,-163.62"/>
+<polygon fill="green" stroke="green" stroke-width="3" points="208.35,-166.25 218.38,-169.67 212.67,-160.75 208.35,-166.25"/>
+</g>
+<!-- p2_VISIBLE_TRICKSTACK_0 -->
+<g id="node5" class="node">
+<title>p2_VISIBLE_TRICKSTACK_0</title>
+<path fill="lightgreen" stroke="black" d="M187.95,-52C187.95,-52 108.05,-52 108.05,-52 102.05,-52 96.05,-46 96.05,-40 96.05,-40 96.05,-28 96.05,-28 96.05,-22 102.05,-16 108.05,-16 108.05,-16 187.95,-16 187.95,-16 193.95,-16 199.95,-22 199.95,-28 199.95,-28 199.95,-40 199.95,-40 199.95,-46 193.95,-52 187.95,-52"/>
+<text text-anchor="middle" x="148" y="-29.8" font-family="Futura" font-size="14.00">TRICKSTACK</text>
+</g>
+<!-- p2_INVISIBLE_HAND_0&#45;&gt;p2_VISIBLE_TRICKSTACK_0 -->
+<g id="edge14" class="edge">
+<title>p2_INVISIBLE_HAND_0-&gt;p2_VISIBLE_TRICKSTACK_0</title>
+<path fill="none" stroke="green" stroke-width="3" d="M163.81,-87.7C161.83,-81.08 159.5,-73.33 157.25,-65.83"/>
+<polygon fill="green" stroke="green" stroke-width="3" points="160.66,-65.03 154.44,-56.45 153.96,-67.04 160.66,-65.03"/>
+</g>
+<!-- p3_INVISIBLE_HAND_0&#45;&gt;table_VISIBLE_PASSING_0 -->
+<g id="edge16" class="edge">
+<title>p3_INVISIBLE_HAND_0-&gt;table_VISIBLE_PASSING_0</title>
+<path fill="none" stroke="green" stroke-width="3" d="M249.38,-124.42C248.33,-134.28 248.01,-146.92 248.43,-158.45"/>
+<polygon fill="green" stroke="green" stroke-width="3" points="244.92,-158.38 249.1,-168.11 251.9,-157.9 244.92,-158.38"/>
+</g>
+<!-- p3_VISIBLE_TRICKSTACK_0 -->
+<g id="node7" class="node">
+<title>p3_VISIBLE_TRICKSTACK_0</title>
+<path fill="lightgreen" stroke="black" d="M315.95,-52C315.95,-52 236.05,-52 236.05,-52 230.05,-52 224.05,-46 224.05,-40 224.05,-40 224.05,-28 224.05,-28 224.05,-22 230.05,-16 236.05,-16 236.05,-16 315.95,-16 315.95,-16 321.95,-16 327.95,-22 327.95,-28 327.95,-28 327.95,-40 327.95,-40 327.95,-46 321.95,-52 315.95,-52"/>
+<text text-anchor="middle" x="276" y="-29.8" font-family="Futura" font-size="14.00">TRICKSTACK</text>
+</g>
+<!-- p3_INVISIBLE_HAND_0&#45;&gt;p3_VISIBLE_TRICKSTACK_0 -->
+<g id="edge13" class="edge">
+<title>p3_INVISIBLE_HAND_0-&gt;p3_VISIBLE_TRICKSTACK_0</title>
+<path fill="none" stroke="green" stroke-width="3" d="M260.19,-87.7C262.17,-81.08 264.5,-73.33 266.75,-65.83"/>
+<polygon fill="green" stroke="green" stroke-width="3" points="270.04,-67.04 269.56,-56.45 263.34,-65.03 270.04,-67.04"/>
+</g>
+<!-- p4_INVISIBLE_HAND_0&#45;&gt;table_VISIBLE_PASSING_0 -->
+<g id="edge8" class="edge">
+<title>p4_INVISIBLE_HAND_0-&gt;table_VISIBLE_PASSING_0</title>
+<path fill="none" stroke="green" stroke-width="3" d="M361.86,-124.17C353.39,-134.79 342.99,-148.02 331,-156.8 323.28,-162.45 314.47,-167.28 305.63,-171.35"/>
+<polygon fill="green" stroke="green" stroke-width="3" points="304.37,-168.08 296.52,-175.19 307.09,-174.53 304.37,-168.08"/>
+</g>
+<!-- p4_VISIBLE_TRICKSTACK_0 -->
+<g id="node9" class="node">
+<title>p4_VISIBLE_TRICKSTACK_0</title>
+<path fill="lightgreen" stroke="black" d="M443.95,-52C443.95,-52 364.05,-52 364.05,-52 358.05,-52 352.05,-46 352.05,-40 352.05,-40 352.05,-28 352.05,-28 352.05,-22 358.05,-16 364.05,-16 364.05,-16 443.95,-16 443.95,-16 449.95,-16 455.95,-22 455.95,-28 455.95,-28 455.95,-40 455.95,-40 455.95,-46 449.95,-52 443.95,-52"/>
+<text text-anchor="middle" x="404" y="-29.8" font-family="Futura" font-size="14.00">TRICKSTACK</text>
+</g>
+<!-- p4_INVISIBLE_HAND_0&#45;&gt;p4_VISIBLE_TRICKSTACK_0 -->
+<g id="edge15" class="edge">
+<title>p4_INVISIBLE_HAND_0-&gt;p4_VISIBLE_TRICKSTACK_0</title>
+<path fill="none" stroke="green" stroke-width="3" d="M385.93,-87.7C388.2,-81.08 390.86,-73.33 393.43,-65.83"/>
+<polygon fill="green" stroke="green" stroke-width="3" points="396.73,-66.99 396.66,-56.4 390.11,-64.72 396.73,-66.99"/>
+</g>
+</g>
+</svg>

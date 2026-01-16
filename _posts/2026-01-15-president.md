@@ -19,6 +19,10 @@ The goal is to eliminate all cards from your hand before other players.
 
 ### Rules of Play
 
+> Rules go here
+
+{% include movement.md %}
+
 ### RECYCLE Code
 
 {% highlight racket %}
