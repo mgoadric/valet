@@ -1,5 +1,5 @@
 ---
-title : "CrazyEights"
+title : "Crazy Eights"
 image : "/assets/images/post/crazy_eights.jpg"
 attribution : "By — Belbury, CC-SA 4.0"
 attlink: "https://commons.wikimedia.org/wiki/File:Crazy_Eights.jpg"

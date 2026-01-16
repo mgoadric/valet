@@ -1,6 +1,6 @@
 ### RECYCLE Code
-
-{% assign filename = "games/" | append: page.title | append: page.num_players | append: ".rcy" %}
+{% assign simplename = page.title | replace:' ','' %}
+{% assign filename = "games/" | append: simplename | append: page.num_players | append: ".rcy" %}
 
 <a href="{{site.baseurl}}/assets/{{filename}}" download>Download link</a>
 

@@ -1,6 +1,6 @@
 ### Card Movement
 
-![Card Movement Graph]({{ site.baseurl }}/assets/images/movement/{{ page.title }}.svg)
+![Card Movement Graph]({{ site.baseurl }}/assets/images/movement/{{ page.title | replace:' ',''}}.svg)
 
 The diagram above shows a sample game inscription generated from a random rollout for {{ page.title }}. Visibility is applied to card locations rather than cards themselves. Public card locations are shown in green, hidden card locations are yellow, private card locations are blue, and memory locations are light gray. Source locations for cards with distinct backs are denoted with a bold border. Named rectangles denote the ownership of the card locations, by either players or the game table. 
 
