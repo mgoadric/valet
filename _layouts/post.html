@@ -12,16 +12,23 @@ layout : default
             <div class="mb-3 post-meta">
               {% if page.tags.size >= 1 %}
               {% for tag in page.tags %}
-              <a href="{{ 'tag/' | relative_url }}{{ tag | slugify }}" class="badge badge-light">{{ tag | capitalize }}</a>
+              <span class="badge badge-dark">{{ tag | capitalize }}</span>
               {% endfor %}
               {% endif %}
+            </div>
+            <div class="row">
+              <div class="col-4">Country:</div><div class="col-8"><h6>{{page.origin}}</h6></div>
+              <div class="col-4">Date:</div><div class="col-8"><h6>{{page.created}}</h6></div>
+              <div class="col-4">Players:</div><div class="col-8"><h6>{{page.num_players}}</h6></div>
+              <div class="col-4">Deck:</div><div class="col-8"><h6>{{page.deck}}</h6></div>
             </div>
           </div>
 
         <div class="col-md-6">
         {% if page.image %}
-        <img src="{{ page.image | relative_url }}" class="img-fluid w-100 mb-4" alt="{{ page.title }}">
+        <img src="{{ page.image | relative_url }}" class="img-fluid w-100 mb-1" alt="{{ page.title }}">
         {% endif %}
+        Image source: <a href="{{ page.attlink }}">{{ page.attribution }}</a>
         </div>
         </div>
         <div class="content mb-5">
