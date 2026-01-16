@@ -1,12 +1,12 @@
 <div class="col-md-4">
-<div class="card border-2 shadow">
-  <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="card-img-top">
+<div class="card mb-3 shadow" style="border-radius: 25px;">
+  <a href="{{ post.url | relative_url }}"><img src="{{ post.image | relative_url }}" alt="{{ post.title }}"  style="border-radius: 25px 25px 0px 0px;" class="card-img-top"></a>
   <div class="card-body">
   <h4><a class="post-title" href="{{ post.url | relative_url }}">{{ post.title }}</a></h4>
-  <div class="mb-3 post-meta">
+  <div class="mb-1 post-meta">
     {% if post.tags.size >= 1 %}
     {% for tag in post.tags %}
-    <a href="{{ 'tag/' | relative_url }}{{ tag | slugify }}" class="badge badge-light">{{ tag | capitalize }}</a>
+    <span class="badge badge-dark">{{ tag | capitalize }}</span>
     {% endfor %}
     {% endif %}
   </div>
