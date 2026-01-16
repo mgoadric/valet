@@ -12,7 +12,7 @@ layout : default
             <div class="mb-3 post-meta">
               {% if page.tags.size >= 1 %}
               {% for tag in page.tags %}
-              <span class="badge badge-dark">{{ tag | capitalize }}</span>
+    <a href="{{ 'tag/' | relative_url }}{{ tag | slugify }}" class="badge badge-light">{{ tag | capitalize }}</a>
               {% endfor %}
               {% endif %}
             </div>
