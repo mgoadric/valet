@@ -9,7 +9,7 @@ layout: default
       <div class="col-lg-8 mx-auto px-0">
         <h2 class="mb-4">Posts are showing from <span class="text-primary">{{ page.tag }}</span></h2>
         <div class="row">
-          {% for post in page.posts %}
+          {% for post in site.tags[page.tag] %}
           {% include post.html %}
           {% endfor %}
         </div>

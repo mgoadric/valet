@@ -1,0 +1,3 @@
+---
+tag: trick-taking
+---
