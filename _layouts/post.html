@@ -9,9 +9,8 @@ layout : default
         <h2>{{ page.title }}</h2>
         <div class="mb-3 post-meta">
           {% if page.tags.size >= 1 %}
-          |
           {% for tag in page.tags %}
-          <a href="{{ '/tag/' | relative_url }}{{ tag | slugify }}">{{ tag | capitalize }}</a> |
+          <a href="{{ 'tag/' | relative_url }}{{ tag | slugify }}" class="badge badge-light">{{ tag | capitalize }}</a>
           {% endfor %}
           {% endif %}
         </div>

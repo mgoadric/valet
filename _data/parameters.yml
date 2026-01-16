@@ -3,7 +3,8 @@ menu:
   # main menu
   main:
     - { name: Home, url: "/" }
-    - { name: Contact, url: "contact.html" }
+    - { name: About, url: "/#about" }
+    - { name: Games, url: "/#games" }
 
   ##### Dropdown menu ######
 

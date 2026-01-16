@@ -1,12 +1,15 @@
-<article class="mb-5">
-  <h2 class="h4"><a class="post-title" href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+<div class="col-md-4">
+<div class="card border-2 shadow">
+  <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="card-img-top">
+  <div class="card-body">
+  <h4><a class="post-title" href="{{ post.url | relative_url }}">{{ post.title }}</a></h4>
   <div class="mb-3 post-meta">
     {% if post.tags.size >= 1 %}
     {% for tag in post.tags %}
-    <a href="{{ 'tag/' | relative_url }}{{ tag | slugify }}">{{ tag | capitalize }}</a>
+    <a href="{{ 'tag/' | relative_url }}{{ tag | slugify }}" class="badge badge-light">{{ tag | capitalize }}</a>
     {% endfor %}
     {% endif %}
   </div>
-  <p>{% assign curlyend = '}' %}{{ post.content | markdownify | strip_html | replace: "{% include JB/setup %", "" | replace: curlyend, "" | truncatewords: 30 }}</p>
-  <a href="{{ post.url | relative_url }}" class="btn btn-sm btn-transparent pl-0">read more</a>
-</article>
+  </div>
+</div>
+</div>
