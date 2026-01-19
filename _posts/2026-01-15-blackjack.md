@@ -1,5 +1,5 @@
 ---
-title : "BlackJack"
+title : "Blackjack"
 image : "/assets/images/post/blackjack.jpg"
 attribution : "By Mark Goadrich, Public Domain" 
 attlink : "https://photos.app.goo.gl/S4ffvmsdWcEKtW3F9"
