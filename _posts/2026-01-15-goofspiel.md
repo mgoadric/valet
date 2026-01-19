@@ -1,5 +1,5 @@
 ---
-title : "GoofSpiel"
+title : "Goofspiel"
 image : "/assets/images/post/goofspiel.jpg"
 attribution : "By Mark Goadrich, Public Domain" 
 attlink : "https://photos.app.goo.gl/S4ffvmsdWcEKtW3F9"
