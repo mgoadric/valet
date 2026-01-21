@@ -5,7 +5,7 @@ attribution : "By Lưu Ly - Own work, CC BY 3.0"
 attlink : "https://commons.wikimedia.org/w/index.php?curid=5578630"
 date: 2026-01-16 00:00:07 +0600
 description : "This is meta description"
-tags : ["Climbing", "Highest Wins", "Sets"]
+tags : ["Climbing", "Shedding", "Highest Wins", "Sets"]
 num_players : 5
 origin : China
 deck : French

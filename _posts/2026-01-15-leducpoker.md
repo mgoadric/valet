@@ -5,7 +5,7 @@ attribution : "By Mark Goadrich, Public Domain"
 attlink : "https://photos.app.goo.gl/S4ffvmsdWcEKtW3F9"
 date: 2026-01-16 00:00:09 +0600
 description : "This is meta description"
-tags : ["Poker", "Highest Wins", "Vying", "Betting"]
+tags : ["Poker", "Highest Wins", "Comparison", "Vying"]
 num_players : 2
 origin : Canada
 deck : 6 Cards (K, K, Q, Q, J, J)
