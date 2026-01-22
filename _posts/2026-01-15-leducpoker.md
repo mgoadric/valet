@@ -6,7 +6,7 @@ attlink : "https://photos.app.goo.gl/S4ffvmsdWcEKtW3F9"
 date: 2026-01-16 00:00:09 +0600
 description : "This is meta description"
 tags : ["Poker", "Highest Wins", "Comparison", "Vying"]
-imperfect : ["Hidden", "Private"]
+categories : ["Hidden", "Private"]
 num_players : 2
 origin : Canada
 created : 2005

@@ -31,11 +31,6 @@ include:
   - _pages
   - _authors
 
-collections:
-  tag:
-    permalink: /tags/:title
-    output: true
-
 # Pages Path
 defaults:
   - scope:
@@ -56,16 +51,14 @@ defaults:
       permalink: post/:title:output_ext
       layout: post
 
-  - scope:
-      path: ""
-      type: "tag"
-    values:
-      layout: tags
-
 # Tags
 tag_page_dir: tag
 tag_page_layout: tags
 tag_permalink_style: pretty
+
+category_page_dir: tag
+category_page_layout: tags
+
 
 # Exclude from processing.
 exclude:

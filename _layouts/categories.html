@@ -7,9 +7,9 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="col-lg-10 mx-auto px-0">
-        <h2 class="mb-4">Games tagged with <span class="text-primary">{{ page.tag }}</span></h2>
+        <h2 class="mb-4">Games with <span class="text-primary">{{ page.category }}</span> Imperfect Information</h2>
         <div class="row">
-          {% for post in site.tags[page.tag] %}
+          {% for post in site.categories[page.category] %}
           {% include post.html %}
           {% endfor %}
         </div>

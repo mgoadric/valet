@@ -5,8 +5,8 @@ attribution : "By Mark Goadrich, Public Domain"
 attlink : "https://photos.app.goo.gl/S4ffvmsdWcEKtW3F9"
 date: 2026-01-16 00:00:04 +0600
 description : "This is meta description"
-tags : ["Commerce", "Sets", "Comparison"]
-imperfect : ["Hidden", "Private", "Taken", "Shared"]
+tags : ["Commerce", "Sets", "Comparison", "Highest Wins"]
+categories : ["Hidden", "Private", "Taken", "Shared"]
 num_players : 5
 origin : Austria
 created : 1710

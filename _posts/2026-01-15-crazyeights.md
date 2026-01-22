@@ -6,7 +6,7 @@ attlink: "https://commons.wikimedia.org/wiki/File:Crazy_Eights.jpg"
 date: 2026-01-16 00:00:20 +0600
 description : "This is meta description"
 tags : ["Shedding", "Matching", "Lowest Wins"]
-imperfect : ["Hidden", "Private", "Attribute"]
+categories : ["Hidden", "Private", "Attribute"]
 num_players : 3
 origin : USA
 created : 1940
