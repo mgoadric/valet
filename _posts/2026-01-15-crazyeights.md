@@ -18,6 +18,7 @@ source : https://www.pagat.com/eights/crazy8s.html
 
 ### Rules of Play
 
+These rules are summarized from [{{ page.source }}]().
 
 >Rules Here
 

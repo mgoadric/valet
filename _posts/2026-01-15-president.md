@@ -8,6 +8,7 @@ description : "This is meta description"
 tags : ["Climbing", "Shedding", "Highest Wins", "Sets"]
 num_players : 5
 origin : China
+created : 1960
 deck : French
 source : https://www.pagat.com/climbing/president.html
 ---
@@ -19,6 +20,8 @@ player to play cards starts with a new set.
 The goal is to eliminate all cards from your hand before other players.
 
 ### Rules of Play
+
+These rules are summarized from [{{ page.source }}]().
 
 > Rules go here
 

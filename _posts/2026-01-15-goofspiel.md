@@ -8,6 +8,7 @@ description : "This is meta description"
 tags : ["Collect", "Capturing", "Highest Wins"]
 num_players : 2
 origin : USA
+created : 1930
 deck : French Deck
 source : https://www.pagat.com/misc/gops.html
 ---
@@ -15,6 +16,8 @@ source : https://www.pagat.com/misc/gops.html
 ### Summary
 
 ### Rules of Play
+
+These rules are summarized from [{{ page.source }}]().
 
 >Blah
 

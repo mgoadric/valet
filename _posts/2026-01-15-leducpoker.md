@@ -8,6 +8,7 @@ description : "This is meta description"
 tags : ["Poker", "Highest Wins", "Comparison", "Vying"]
 num_players : 2
 origin : Canada
+created : 2005
 deck : 6 Cards (K, K, Q, Q, J, J)
 source : https://www.sotets.uk/pgx/leduc_holdem/
 ---
@@ -15,6 +16,8 @@ source : https://www.sotets.uk/pgx/leduc_holdem/
 ### Summary
 
 ### Rules of Play
+
+These rules are summarized from [{{ page.source }}]().
 
 >Blah
 

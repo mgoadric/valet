@@ -8,6 +8,7 @@ description : "This is meta description"
 tags : ["Banking", "High Score", "Banking", "Comparison"]
 num_players : 1
 origin : France
+created : 1930
 deck : French Deck
 source : https://www.pagat.com/banking/blackjack.html
 ---
@@ -15,6 +16,8 @@ source : https://www.pagat.com/banking/blackjack.html
 ### Summary
 
 ### Rules of Play
+
+These rules are summarized from [{{ page.source }}]().
 
 >Blah
 

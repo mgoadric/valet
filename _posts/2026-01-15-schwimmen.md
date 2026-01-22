@@ -8,6 +8,7 @@ description : "This is meta description"
 tags : ["Commerce", "Sets", "Comparison"]
 num_players : 5
 origin : Austria
+created : 1710
 deck : Piquet Pack
 source : https://www.pagat.com/commerce/schwimmen.html
 ---
@@ -15,6 +16,8 @@ source : https://www.pagat.com/commerce/schwimmen.html
 ### Summary
 
 ### Rules of Play
+
+These rules are summarized from [{{ page.source }}]().
 
 >Blah
 
