@@ -6,6 +6,7 @@ attlink : "https://photos.app.goo.gl/S4ffvmsdWcEKtW3F9"
 date: 2026-01-16 00:00:13 +0600
 description : "This is meta description"
 tags : ["Collect", "Capturing", "Highest Wins"]
+imperfect : ["Hidden", "Back", "Private"]
 num_players : 2
 origin : USA
 created : 1930
@@ -17,7 +18,7 @@ source : https://www.pagat.com/misc/gops.html
 
 ### Rules of Play
 
-These rules are summarized from [{{ page.source }}]().
+These rules are summarized from [{{ page.source }}]({{ page.source }}).
 
 >Blah
 

@@ -6,6 +6,7 @@ attlink : "https://photos.app.goo.gl/S4ffvmsdWcEKtW3F9"
 date: 2026-01-16 00:00:21 +0600
 description : "This is meta description"
 tags : ["Banking", "High Score", "Banking", "Comparison"]
+imperfect : ["Hidden"]
 num_players : 1
 origin : France
 created : 1930
@@ -17,7 +18,7 @@ source : https://www.pagat.com/banking/blackjack.html
 
 ### Rules of Play
 
-These rules are summarized from [{{ page.source }}]().
+These rules are summarized from [{{ page.source }}]({{ page.source }}).
 
 >Blah
 

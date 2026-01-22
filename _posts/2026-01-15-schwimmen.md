@@ -6,6 +6,7 @@ attlink : "https://photos.app.goo.gl/S4ffvmsdWcEKtW3F9"
 date: 2026-01-16 00:00:04 +0600
 description : "This is meta description"
 tags : ["Commerce", "Sets", "Comparison"]
+imperfect : ["Hidden", "Private", "Taken", "Shared"]
 num_players : 5
 origin : Austria
 created : 1710
@@ -17,7 +18,7 @@ source : https://www.pagat.com/commerce/schwimmen.html
 
 ### Rules of Play
 
-These rules are summarized from [{{ page.source }}]().
+These rules are summarized from [{{ page.source }}]({{ page.source }}).
 
 >Blah
 

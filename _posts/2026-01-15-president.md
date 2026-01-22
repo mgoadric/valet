@@ -6,6 +6,7 @@ attlink : "https://commons.wikimedia.org/w/index.php?curid=5578630"
 date: 2026-01-16 00:00:07 +0600
 description : "This is meta description"
 tags : ["Climbing", "Shedding", "Highest Wins", "Sets"]
+imperfect : ["Hidden", "Private"]
 num_players : 5
 origin : China
 created : 1960
@@ -21,7 +22,7 @@ The goal is to eliminate all cards from your hand before other players.
 
 ### Rules of Play
 
-These rules are summarized from [{{ page.source }}]().
+These rules are summarized from [{{ page.source }}]({{ page.source }}).
 
 > Rules go here
 
