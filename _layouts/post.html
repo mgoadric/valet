@@ -10,19 +10,26 @@ layout : default
           <div class="col-md-6">
             <h2>{{ page.title }}</h2>
             <div class="mb-3 post-meta">
-              {% if page.tags.size >= 1 %}
-              {% for tag in page.tags %}
-    <a href="{{ 'tag/' | relative_url }}{{ tag | slugify }}" class="badge badge-light">{{ tag | capitalize }}</a>
-              {% endfor %}
-              {% endif %}
-            </div>
             <div class="row">
               <div class="col-4">Country:</div><div class="col-8"><h6>{{page.origin}}</h6></div>
               <div class="col-4">Date:</div><div class="col-8"><h6>{{page.created}}</h6></div>
               <div class="col-4">Players:</div><div class="col-8"><h6>{{page.num_players}}</h6></div>
               <div class="col-4">Deck:</div><div class="col-8"><h6>{{page.deck}}</h6></div>
+             {% if page.tags.size >= 1 %}
+              <div class="col-4">Categories:</div><div class="col-8"> {% for tag in page.tags %}
+    <a href="{{ 'tag/' | relative_url }}{{ tag | slugify }}" class="badge badge-primary" style="color: white">{{ tag | capitalize }}</a>
+              {% endfor %}
+              </div>
+              {% endif %}
+              {% if page.categories.size >= 1 %}
+              <div class="col-4">Imperfection:</div><div class="col-8"> {% for tag in page.categories %}
+    <a href="{{ 'imperfect/' | relative_url }}{{ tag | slugify }}/" class="badge badge-danger" style="color: white">{{ tag | capitalize }}</a>
+              {% endfor %}
+              </div>
+              {% endif %}
             </div>
           </div>
+        </div>
 
         <div class="col-md-6">
         {% if page.image %}
