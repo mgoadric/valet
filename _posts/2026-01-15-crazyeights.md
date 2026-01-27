@@ -16,21 +16,20 @@ source : https://www.pagat.com/eights/crazy8s.html
 
 ### Summary
 
+In Crazy Eight, players attempt to empty their hands of cards. Each player is dealt 5 cards from the deck to start, and one card is turned up from the deck to begin the discard pile. On a player's
+turn, they can either play a card that matches either the suit or rank of the top card on the the discard pile, or draw the top card from the face-down deck. A card with a suit of 8 can be played at any time. The first player to empty their hand is the winner, and all other players score points according to the rank of the cards they have remaining.
 
 ### Rules of Play
 
 These rules are summarized from [{{ page.source }}]({{ page.source }}).
 
->Rules Here
-
 ### Variants Used
 
-Blah
+In this version of Crazy Eights, players are required to play a matching card 
+or an eight if they are able. A player can only draw a card if there is no option for them
+to play.
 
 {% include movement.md %}
 
 {% include recycle.md %}
-
-### Branching Factor
-
 

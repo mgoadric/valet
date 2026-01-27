@@ -16,13 +16,15 @@ source : https://www.pagat.com/banking/blackjack.html
 
 ### Summary
 
+
+
 ### Rules of Play
 
 These rules are summarized from [{{ page.source }}]({{ page.source }}).
 
->Blah
-
 ### Variants Used
+
+Players cannot split their hands when they are initially dealt two cards with the same rank.
 
 {% include movement.md %}
 
