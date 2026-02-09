@@ -1,4 +1,4 @@
 ---
 layout : categories
-category : Attribute
+category : Deduction
 ---

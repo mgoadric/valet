@@ -6,7 +6,7 @@ attlink : "https://commons.wikimedia.org/w/index.php?curid=91877364"
 date: 2026-01-16 00:00:02 +0600
 description : "This is meta description"
 tags : ["Trick Taking", "Trump", "Capturing", "Beating", "One Loser"]
-categories : ["Hidden", "Private", "Attribute"]
+categories : ["Hidden", "Private", "Deduction"]
 num_players : 3
 origin : Sweeden
 created : 1950
