@@ -20,14 +20,10 @@ source : https://www.pagat.com/commerce/schwimmen.html
 
 These rules are summarized from [{{ page.source }}]({{ page.source }}).
 
->Blah
-
 ### Variants Used
 
 {% include movement.md %}
 
 {% include recycle.md %}
-
-### Branching Factor
 
 

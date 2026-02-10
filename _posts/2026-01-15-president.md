@@ -24,12 +24,7 @@ The goal is to eliminate all cards from your hand before other players.
 
 These rules are summarized from [{{ page.source }}]({{ page.source }}).
 
-> Rules go here
-
 {% include movement.md %}
 
 {% include recycle.md %}
-
-### Branching Factor
-
 

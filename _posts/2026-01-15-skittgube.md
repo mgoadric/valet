@@ -1,5 +1,5 @@
 ---
-title : "Skittgube"
+title : "Skitgubbe"
 image : "/assets/images/post/skittgube.jpg"
 attribution : "By Bermicourt - Own work, CC BY-SA 4.0" 
 attlink : "https://commons.wikimedia.org/w/index.php?curid=91877364"
@@ -20,14 +20,10 @@ source : https://www.pagat.com/beating/skitgubbe.html
 
 These rules are summarized from [{{ page.source }}]({{ page.source }}).
 
->Blah
-
 ### Variants Used
 
 {% include movement.md %}
 
 {% include recycle.md %}
-
-### Branching Factor
 
 

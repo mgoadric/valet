@@ -20,14 +20,9 @@ source : https://www.pagat.com/misc/gops.html
 
 These rules are summarized from [{{ page.source }}]({{ page.source }}).
 
->Blah
-
 ### Variants Used
 
 {% include movement.md %}
 
 {% include recycle.md %}
-
-### Branching Factor
-
 

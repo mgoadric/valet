@@ -21,8 +21,6 @@ source : https://www.pagat.com/jass/klaverjassen.html
 
 These rules are summarized from [{{ page.source }}]({{ page.source }}).
 
->Blah
-
 ### Variants Used
 
 Valet uses the Utrecht rule for determining trump, where the first player picks the trump suit after seeing their hand.
@@ -36,7 +34,5 @@ It also incorporates the Amsterdam rules for playing trumps (quoted from Pagat):
 {% include movement.md %}
 
 {% include recycle.md %}
-
-### Branching Factor
 
 
