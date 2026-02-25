@@ -16,7 +16,7 @@ source : https://www.pagat.com/banking/blackjack.html
 
 ### Summary
 
-Blackjack is a betting game often found in casinos. Players are dealt two cards from a 52-card deck. Players can incrementally ask for additional cards from a face-down deck, with the goal to obtain a hand of cards with the highest total value. However, they will lose all cards if their total exceeds 21 points. Because of the risk involved in obtaining new cards, players can purchase insurance against losing based on their initial hand of cards. Players also need to exceed the hand total of the "Dealer", a player that follows certain strict rules on when they will ask for new cards.
+Blackjack is a betting game often found in casinos. Players are dealt two cards from a 52-card deck. Players can incrementally ask for additional cards from a face-down deck, with the goal to obtain a hand of cards with the highest total value. However, they will lose all money bet if their total exceeds 21 points. Because of the risk involved in obtaining new cards, players can purchase insurance against losing based on their initial hand of cards. Players also need to exceed the hand total of the "Dealer", a player that follows certain strict rules on when they will ask for new cards.
 
 ### Rules of Play
 
