@@ -26,6 +26,10 @@ These rules are summarized from [{{ page.source }}]({{ page.source }}).
 
 In Valet, players start with 10 chips, and can only bet even values. This means that any insurance purchased, which is half of their initial bet, will be an integer value. Players cannot split their hands when they are initially dealt two cards with the same rank.
 
+### Related Games
+
+Blackjack is a *[banking](https://www.pagat.com/banking/)* game. Other games in this genre include **[Baccarat](https://www.pagat.com/banking/baccarat.html)** and **[Faro](https://www.pagat.com/banking/faro.html)**.
+
 {% include movement.md %}
 
 {% include recycle.md %}
