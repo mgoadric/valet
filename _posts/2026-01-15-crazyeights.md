@@ -33,7 +33,7 @@ to play.
 
 Crazy Eights is a *[matching](https://www.pagat.com/class/match.html)* *[shedding](https://www.pagat.com/class/shed.html)* game. Other games similar to Crazy Eights include
 **[Bartok](https://www.pagat.com/eights/bartog.html)** and
-**[Page One](https://www.pagat.com/inflation/page_one.html)**. Crazy Eights is the foundation for the popular game **[Uno](https://www.pagat.com/com/#uno)**.
+**[Page One](https://www.pagat.com/inflation/page_one.html)**, along with the commercial game **[Uno](https://www.pagat.com/com/#uno)**.
 
 {% include movement.md %}
 

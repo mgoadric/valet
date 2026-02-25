@@ -24,6 +24,12 @@ The goal is to eliminate all cards from your hand before other players.
 
 These rules are summarized from [{{ page.source }}]({{ page.source }}).
 
+### Related Games
+
+President is a [*climbing*](https://www.pagat.com/climbing/) game. Other games in this genre include
+**[Dou Dizhu (斗地主)](https://www.pagat.com/climbing/doudizhu.html)**
+and **[Big Two](https://www.pagat.com/climbing/bigtwo.html)**, along with the commercial game [**Tichu**](https://fatamorgana.ch/fatamorgana/tichu/english-rules).
+
 {% include movement.md %}
 
 {% include recycle.md %}

@@ -22,6 +22,8 @@ These rules are summarized from [{{ page.source }}]({{ page.source }}).
 
 ### Variants Used
 
+### Related Games
+
 {% include movement.md %}
 
 {% include recycle.md %}

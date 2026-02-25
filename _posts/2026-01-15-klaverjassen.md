@@ -31,6 +31,8 @@ It also incorporates the Amsterdam rules for playing trumps (quoted from Pagat):
 > 2. If you cannot follow suit and the card which is winning the trick so far is your partner's, then you may play any card of any suit, except that if your partner's winning card is a trump, you are not allowed to undertrump unless your hand consists entirely of lower trumps;
 > 3. If trumps are led then subsequent players must beat the highest trump so far played to the trick if they can, even if this highest trump was played by their partner. If they cannot beat the highest trump so far played, they must play a lower trump. If they have no trumps at all, they can play any card.
 
+### Related Games
+
 {% include movement.md %}
 
 {% include recycle.md %}
