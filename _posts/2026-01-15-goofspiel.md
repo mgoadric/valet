@@ -26,11 +26,6 @@ These rules are summarized from [{{ page.source }}]({{ page.source }}).
 
 When players tie in their bids, the prize card is carried over to the next round. A tie in the last round means those cards are not awarded.
 
-### Related Games
-
-Goofspiel is a catch and collect game. Other games in this genre include 
-????
-
 {% include movement.md %}
 
 {% include recycle.md %}
