@@ -2,7 +2,7 @@
 
 ![Card Movement Graph]({{ site.baseurl }}/assets/images/movement/{{ page.title | replace:' ',''}}.svg)
 
-The diagram above visualizes information flow in {{ page.title }} using a single random rollout in CardStock. Visibility
+The diagram above visualizes information flow in {{ page.title }} using a single random rollout in [CardStock](https://github.com/mgoadric/cardstock). Visibility
 is attached to card locations, so all cards in a 
 location share the same visibility;
 information is revealed or concealed as cards move between locations and ownership changes.
