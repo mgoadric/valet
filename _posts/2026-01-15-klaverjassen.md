@@ -16,6 +16,7 @@ source : https://www.pagat.com/jass/klaverjassen.html
 
 ### Summary
 
+Klaverjassen is a trick-taking partnership card game. Cards are assigned point values depending on their rank. The Piquet deck is shuffled and 8 cards are dealt to each player. Play proceeds in rounds, with complex rules for how and when to follow suit and play trump. The winner of each trick leads the next trick. Points are awarded for individual cards, differentiated by trump and non-trump suits. Points are also calcuated based on if a trick contains sets of face cards, runs in sequence in the same suit, or marriages (King and Queen pairs).  The team that captures cards with the most points wins.
 
 ### Rules of Play
 
@@ -32,6 +33,8 @@ It also incorporates the Amsterdam rules for playing trumps (quoted from Pagat):
 > 3. If trumps are led then subsequent players must beat the highest trump so far played to the trick if they can, even if this highest trump was played by their partner. If they cannot beat the highest trump so far played, they must play a lower trump. If they have no trumps at all, they can play any card.
 
 ### Related Games
+
+Klaverjassen represents the *[Jack-Nine](https://www.pagat.com/jass/)* subgenre of *[Ace-Ten](https://www.pagat.com/aceten/)* trick-taking games. Other Jack-Nine games include **[Belote](https://www.pagat.com/jass/belote.html)**, **[Jass](https://www.pagat.com/jass/swjass.html)**, and **[304](https://www.pagat.com/jass/304.html)**.
 
 {% include movement.md %}
 
