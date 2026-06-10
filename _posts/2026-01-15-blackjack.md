@@ -34,5 +34,7 @@ Blackjack is a *[banking](https://www.pagat.com/banking/)* game. Other games in 
 
 {% include spread.md %}
 
+{% include lead.md %}
+
 {% include recycle.md %}
 
