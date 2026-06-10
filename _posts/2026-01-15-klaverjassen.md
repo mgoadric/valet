@@ -38,6 +38,12 @@ Klaverjassen represents the *[Jack-Nine](https://www.pagat.com/jass/)* subgenre 
 
 {% include movement.md %}
 
+{% include branching.md %}
+
+{% include spread.md %}
+
+{% include lead.md %}
+
 {% include recycle.md %}
 
 

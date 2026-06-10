@@ -33,5 +33,11 @@ The simultaneous bidding mechanic in Goofspiel is mostly unique in traditinoal c
 
 {% include movement.md %}
 
+{% include branching.md %}
+
+{% include spread.md %}
+
+{% include lead.md %}
+
 {% include recycle.md %}
 

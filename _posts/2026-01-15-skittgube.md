@@ -33,6 +33,12 @@ Skitgubbe is a *[beating](https://www.pagat.com/beating/)* game. Other games in 
 
 {% include movement.md %}
 
+{% include branching.md %}
+
+{% include spread.md %}
+
+{% include lead.md %}
+
 {% include recycle.md %}
 
 

@@ -32,5 +32,11 @@ and **[Big Two](https://www.pagat.com/climbing/bigtwo.html)**, along with the co
 
 {% include movement.md %}
 
+{% include branching.md %}
+
+{% include spread.md %}
+
+{% include lead.md %}
+
 {% include recycle.md %}
 

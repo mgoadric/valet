@@ -37,5 +37,11 @@ Crazy Eights is a *[matching](https://www.pagat.com/class/match.html)* *[sheddin
 
 {% include movement.md %}
 
+{% include branching.md %}
+
+{% include spread.md %}
+
+{% include lead.md %}
+
 {% include recycle.md %}
 

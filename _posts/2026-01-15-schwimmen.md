@@ -32,6 +32,10 @@ Schwimmen is a *[commerce](https://www.pagat.com/commerce/)* or exchange game. O
 
 {% include movement.md %}
 
+{% include branching.md %}
+
+{% include lead.md %}
+
 {% include recycle.md %}
 
 

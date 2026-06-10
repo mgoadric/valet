@@ -29,6 +29,12 @@ Leduc Hold'em is a simplified version of *[Poker](https://www.pagat.com/poker/)*
 
 {% include movement.md %}
 
+{% include branching.md %}
+
+{% include spread.md %}
+
+{% include lead.md %}
+
 {% include recycle.md %}
 
 
