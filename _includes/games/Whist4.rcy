@@ -88,7 +88,7 @@
  (stage team
   (end (all player 'P (== ('P sto TRICKSWON) 0)))
   (do (
-                    
+
    ;; Add individual points from each player on the team  
    (set ((current team) sto TRICKSWON) 0)
    (all (current team) 'TP
@@ -102,3 +102,6 @@
          (- ((current team) sto TRICKSWON) 6))))))
  
  (scoring max ((team (current player)) sto SCORE)))
+
+
+
