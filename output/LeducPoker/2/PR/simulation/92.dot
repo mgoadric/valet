@@ -1,0 +1,22 @@
+digraph {
+overlap=scale;
+labelloc="t";
+label="LeducPoker";
+fontname="Futura";
+subgraph cluster_table {
+style=filled;fillcolor=ghostwhite;label="table"
+table_INVISIBLE_STOCK_0 [fontname=Futura,penwidth=3,fillcolor=khaki,style="filled,rounded",shape=box,label=STOCK];
+table_VISIBLE_FACEUP_0 [fontname=Futura,fillcolor=lightgreen,style="filled,rounded",shape=box,label=FACEUP];
+}
+subgraph cluster_p1 {
+style=filled;fillcolor=ghostwhite;label="p1"
+p1_INVISIBLE_HAND_0 [fontname=Futura,fillcolor=lightblue,style="filled,rounded",shape=box,label=HAND];
+}
+subgraph cluster_p2 {
+style=filled;fillcolor=ghostwhite;label="p2"
+p2_INVISIBLE_HAND_0 [fontname=Futura,fillcolor=lightblue,style="filled,rounded",shape=box,label=HAND];
+}
+table_INVISIBLE_STOCK_0 -> p1_INVISIBLE_HAND_0 [fontname=Futura,fontsize=11,color=black];
+table_INVISIBLE_STOCK_0 -> p2_INVISIBLE_HAND_0 [fontname=Futura,fontsize=11,color=black];
+table_INVISIBLE_STOCK_0 -> table_VISIBLE_FACEUP_0 [fontname=Futura,fontsize=11,color=green,penwidth=3,];
+}

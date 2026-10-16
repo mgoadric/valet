@@ -1,0 +1,35 @@
+digraph {
+overlap=scale;
+labelloc="t";
+label="Agram";
+fontname="Futura";
+subgraph cluster_table {
+style=filled;fillcolor=ghostwhite;label="table"
+table_INVISIBLE_STOCK_0 [fontname=Futura,penwidth=3,fillcolor=khaki,style="filled,rounded",shape=box,label=STOCK];
+table_VISIBLE_DISCARD_0 [fontname=Futura,fillcolor=lightgreen,style="filled,rounded",shape=box,label=DISCARD];
+}
+subgraph cluster_p1 {
+style=filled;fillcolor=ghostwhite;label="p1"
+p1_INVISIBLE_HAND_0 [fontname=Futura,fillcolor=lightblue,style="filled,rounded",shape=box,label=HAND];
+p1_VISIBLE_TRICK_0 [fontname=Futura,fillcolor=lightgreen,style="filled,rounded",shape=box,label=TRICK];
+}
+subgraph cluster_p2 {
+style=filled;fillcolor=ghostwhite;label="p2"
+p2_INVISIBLE_HAND_0 [fontname=Futura,fillcolor=lightblue,style="filled,rounded",shape=box,label=HAND];
+p2_VISIBLE_TRICK_0 [fontname=Futura,fillcolor=lightgreen,style="filled,rounded",shape=box,label=TRICK];
+}
+subgraph cluster_p3 {
+style=filled;fillcolor=ghostwhite;label="p3"
+p3_INVISIBLE_HAND_0 [fontname=Futura,fillcolor=lightblue,style="filled,rounded",shape=box,label=HAND];
+p3_VISIBLE_TRICK_0 [fontname=Futura,fillcolor=lightgreen,style="filled,rounded",shape=box,label=TRICK];
+}
+table_INVISIBLE_STOCK_0 -> p1_INVISIBLE_HAND_0 [fontname=Futura,fontsize=11,color=black];
+table_INVISIBLE_STOCK_0 -> p2_INVISIBLE_HAND_0 [fontname=Futura,fontsize=11,color=black];
+table_INVISIBLE_STOCK_0 -> p3_INVISIBLE_HAND_0 [fontname=Futura,fontsize=11,color=black];
+p1_INVISIBLE_HAND_0 -> p1_VISIBLE_TRICK_0 [fontname=Futura,fontsize=11,color=green,penwidth=3,];
+p2_INVISIBLE_HAND_0 -> p2_VISIBLE_TRICK_0 [fontname=Futura,fontsize=11,color=green,penwidth=3,];
+p3_INVISIBLE_HAND_0 -> p3_VISIBLE_TRICK_0 [fontname=Futura,fontsize=11,color=green,penwidth=3,];
+p1_VISIBLE_TRICK_0 -> table_VISIBLE_DISCARD_0 [fontname=Futura,fontsize=11,color=green,penwidth=3,];
+p2_VISIBLE_TRICK_0 -> table_VISIBLE_DISCARD_0 [fontname=Futura,fontsize=11,color=green,penwidth=3,];
+p3_VISIBLE_TRICK_0 -> table_VISIBLE_DISCARD_0 [fontname=Futura,fontsize=11,color=green,penwidth=3,];
+}
